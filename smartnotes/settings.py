@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
 #apps this added by us  by the command  python -m django startapp home..
     'home',
+    'notes',
 ]
 
 MIDDLEWARE = [
