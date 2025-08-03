@@ -24,4 +24,5 @@ urlpatterns = [
     #path('home', views.home),
     path('', include('home.urls')), #to import the another routes of the different file we can use this.
     #path('basicHome',views.basicHome),
+    path('smart/',include('notes.urls')),
 ]
